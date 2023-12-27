@@ -97,14 +97,14 @@
 }
 
 .header .headerLeftSide h1 {
-  font-size: 64px;
+  font-size: 8vw;
   text-shadow: 2px 2px white;
   font-family: AlfaSlabOne;
   color: #44200b;
 }
 
 .header .headerLeftSide h2 {
-  font-size: 42px;
+  font-size: 6vw;
   line-height: 20px;
   text-shadow: 2px 2px white;
   font-family: AlfaSlabOne;
@@ -119,16 +119,14 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1600px) {
-  .header .headerNavbarMenu {
-    display: block;
-    visibility: visible;
-  }
+.header .headerNavbarMenu {
+  display: block;
+  visibility: visible;
+}
 
-  .header .headerNavbarHamburger {
-    display: none;
-    visibility: hidden;
-  }
+.header .headerNavbarHamburger {
+  display: none;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 800px) {
@@ -148,6 +146,7 @@
   }
 
   .header .headerNavbarHamburger {
+    max-height: 24px;
     height: 100%;
     display: block;
     visibility: visible;
