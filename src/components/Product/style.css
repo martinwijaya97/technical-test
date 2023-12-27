@@ -80,6 +80,12 @@
   color: white;
 }
 
+.product .productListItem button:active {
+  background-color: grey;
+  transform: translateY(2px); /* Misalnya, translasi 2px saat tombol ditekan */
+  transition: transform 0.2s;
+}
+
 @media screen and (max-width: 800px) {
   .product .productList {
     padding: 1rem 8%;
