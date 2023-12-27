@@ -1,0 +1,30 @@
+.banner {
+  padding: 4rem 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner img:first-child {
+  width: 100%;
+  grid-row: 3/1;
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    padding: 1rem 8% 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+.product {
+  width: 100%;
+}
+
+.product .productHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.product .textHeaderAlwaysTastyBurger {
+  background-color: #ffc74d;
+  padding: 0.2em 0.6em;
+  color: #44200b;
+}
+
+.product .textHeaderChooseEnjoy {
+  text-align: center;
+}
+
+.product .textHeaderChooseEnjoy h2 {
+  margin: 0.2em;
+  text-align: center;
+  font-family: AlfaSlabOne;
+  color: #44200b;
+}
+
+.product .textHeaderChooseEnjoy p {
+  padding: 0em 13%;
+  line-height: 14px;
+  font-size: 8px;
+  text-transform: capitalize;
+  font-family: Montserrat;
+}
+
+.product .productList {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  width: 100%;
+}
+
+.product .productListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.product .productListItem img {
+  width: 100%;
+}
+
+.product .productListItem h3 {
+  text-align: center;
+}
+
+.product .productListItem p {
+  width: 60%;
+  font-size: 8px;
+  text-transform: capitalize;
+  font-family: Montserrat;
+  line-height: 12px;
+  text-align: center;
+}
+
+.product .productListItem button {
+  border: 0;
+  padding: 1em;
+  background-color: red;
+
+  cursor: pointer;
+
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: AlfaSlabOne;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .product .productList {
+    padding: 1rem 8%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    box-sizing: border-box;
+  }
+}
