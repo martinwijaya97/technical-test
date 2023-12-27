@@ -82,7 +82,7 @@
 
 .product .productListItem button:active {
   background-color: grey;
-  transform: translateY(2px); /* Misalnya, translasi 2px saat tombol ditekan */
+  transform: translateY(2px);
   transition: transform 0.2s;
 }
 
