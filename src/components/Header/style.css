@@ -93,7 +93,7 @@
 }
 
 .header .headerLeftSide img {
-  max-width: 240px;
+  max-width: 60%;
 }
 
 .header .headerLeftSide h1 {
@@ -155,10 +155,6 @@
   .header .headerNavbarMenu {
     display: none;
     visibility: hidden;
-  }
-
-  .header .headerLeftSide img {
-    max-width: 120px;
   }
 
   .header .headerLeftSide h1 {
