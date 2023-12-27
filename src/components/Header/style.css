@@ -48,13 +48,12 @@
 }
 
 .header .headerNavbarMenu ul:first-child li {
-  font-size: 8px;
+  font-size: 1vw;
   font-family: Montserrat;
 }
 
 .header .headerNavbarMenu ul:first-child img {
   filter: invert(1);
-  height: 16px;
 }
 
 .header .headerNavbarMenu ul:last-child {
@@ -62,11 +61,11 @@
   flex-direction: row;
   align-items: flex-end;
   list-style: none;
-  column-gap: 12px;
+  column-gap: 4vw;
 }
 
 .header .headerNavbarMenu ul:last-child li {
-  font-size: 12px;
+  font-size: 1vw;
   cursor: pointer;
   letter-spacing: 4px;
 }
@@ -77,7 +76,6 @@
 
 .header .headerNavbarMenu ul:last-child img {
   cursor: pointer;
-  height: 16px;
 }
 
 .header .headerNavbarMenu ul:last-child img:hover {
